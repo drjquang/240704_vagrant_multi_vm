@@ -1,0 +1,22 @@
+vms:
+  - name: "vm1"
+    box: "ubuntu/trusty64"
+    memory: 2048
+    cpus: 2
+    hostname: "vm1.local"
+    private_ip: "192.168.99.101"
+    public_ip: "192.168.1.231"
+  - name: "vm2"
+    box: "ubuntu/trusty64"
+    memory: 2048
+    cpus: 2
+    hostname: "vm2.local"
+    private_ip: "192.168.99.102"
+    public_ip: "192.168.1.232"
+  - name: "vm3"
+    box: "ubuntu/trusty64"
+    memory: 2048
+    cpus: 2
+    hostname: "vm3.local"
+    private_ip: "192.168.99.103"
+    public_ip: "192.168.1.233"
